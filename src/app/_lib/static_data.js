@@ -249,45 +249,55 @@ export const privacyPolicyStaticData = {
         sections: [
             {
                 heading: "1. Въведение",
-                content: "Добре дошли на уебсайта на **ГИГ Конструкт ООД**. Вашата поверителност е важна за нас. Тази Политика за поверителност обяснява как събираме, използваме и защитаваме Вашата лична информация, когато посещавате нашия уебсайт или използвате нашите услуги.\n\nИзползвайки нашия уебсайт, Вие се съгласявате с условията, описани в тази политика."
+                content:
+                    "Добре дошли на уебсайта на **ГИГ Конструкт ООД**. Вашата поверителност е важна за нас. Тази Политика за поверителност обяснява как събираме, използваме и защитаваме Вашата лична информация, когато посещавате нашия уебсайт или използвате нашите услуги.\n\nИзползвайки нашия уебсайт, Вие се съгласявате с условията, описани в тази политика.",
             },
             {
                 heading: "2. Каква информация събираме",
-                content: "Ние можем да събираме следните видове информация:\n\n• **Лична информация:** Име, имейл адрес, телефонен номер и адрес, които предоставяте доброволно чрез формуляри за контакт или запитвания.\n• **Техническа информация:** IP адрес, тип на браузъра, операционна система, страници, които посещавате, и време на посещението.\n• **Бисквитки:** Малки файлове, които се съхраняват на Вашето устройство за подобряване на Вашето изживяване на сайта."
+                content:
+                    "Ние можем да събираме следните видове информация:\n\n• **Лична информация:** Име, имейл адрес, телефонен номер и адрес, които предоставяте доброволно чрез формуляри за контакт или запитвания.\n• **Техническа информация:** IP адрес, тип на браузъра, операционна система, страници, които посещавате, и време на посещението.\n• **Бисквитки:** Малки файлове, които се съхраняват на Вашето устройство за подобряване на Вашето изживяване на сайта.",
             },
             {
                 heading: "3. Как използваме Вашата информация",
-                content: "Информацията, която събираме, се използва за:\n\n• **Отговор на Вашите запитвания:** За да Ви предоставим информация за нашите услуги и да отговорим на въпросите Ви.\n• **Подобряване на уебсайта:** За анализ на използването и подобряване на функционалността и съдържанието.\n• **Маркетингови комуникации:** За изпращане на новини, промоции и актуализации (само ако сте дали съгласието си).\n• **Правни задължения:** За спазване на приложимите закони и регулации."
+                content:
+                    "Информацията, която събираме, се използва за:\n\n• **Отговор на Вашите запитвания:** За да Ви предоставим информация за нашите услуги и да отговорим на въпросите Ви.\n• **Подобряване на уебсайта:** За анализ на използването и подобряване на функционалността и съдържанието.\n• **Маркетингови комуникации:** За изпращане на новини, промоции и актуализации (само ако сте дали съгласието си).\n• **Правни задължения:** За спазване на приложимите закони и регулации.",
             },
             {
                 heading: "4. Споделяне на информация с трети страни",
-                content: "Ние не продаваме и не отдаваме под наем Вашата лична информация. Можем да споделяме информация само в следните случаи:\n\n• **Доставчици на услуги:** С партньори, които ни помагат да управляваме уебсайта (напр. хостинг, анализ).\n• **Правни изисквания:** Когато законът изисква или за защита на нашите права.\n• **Бизнес трансакции:** При сливане, придобиване или продажба на активи."
+                content:
+                    "Ние не продаваме и не отдаваме под наем Вашата лична информация. Можем да споделяме информация само в следните случаи:\n\n• **Доставчици на услуги:** С партньори, които ни помагат да управляваме уебсайта (напр. хостинг, анализ).\n• **Правни изисквания:** Когато законът изисква или за защита на нашите права.\n• **Бизнес трансакции:** При сливане, придобиване или продажба на активи.",
             },
             {
                 heading: "5. Бисквитки (Cookies)",
-                content: "Нашият уебсайт използва бисквитки за:\n\n• Запомняне на предпочитанията Ви (напр. език).\n• Анализ на трафика чрез инструменти като Google Analytics.\n• Подобряване на функционалността на сайта.\n\nМожете да управлявате или изключите бисквитките чрез настройките на браузъра си. Моля, имайте предвид, че деактивирането им може да ограничи някои функции на сайта."
+                content:
+                    "Нашият уебсайт използва бисквитки за:\n\n• Запомняне на предпочитанията Ви (напр. език).\n• Анализ на трафика чрез инструменти като Google Analytics.\n• Подобряване на функционалността на сайта.\n\nМожете да управлявате или изключите бисквитките чрез настройките на браузъра си. Моля, имайте предвид, че деактивирането им може да ограничи някои функции на сайта.",
             },
             {
                 heading: "6. Сигурност на данните",
-                content: "Ние прилагаме технически и организационни мерки за защита на Вашата информация от неоторизиран достъп, промяна или унищожаване. Въпреки това, нито една система не може да бъде 100% сигурна, и ние не можем да гарантираме абсолютна защита."
+                content:
+                    "Ние прилагаме технически и организационни мерки за защита на Вашата информация от неоторизиран достъп, промяна или унищожаване. Въпреки това, нито една система не може да бъде 100% сигурна, и ние не можем да гарантираме абсолютна защита.",
             },
             {
                 heading: "7. Вашите права",
-                content: "Съгласно Общия регламент за защита на данните (GDPR), Вие имате следните права:\n\n• **Достъп:** Да поискате копие от личните данни, които съхраняваме за Вас.\n• **Корекция:** Да поискате актуализиране на неточна информация.\n• **Изтриване:** Да поискате изтриване на Вашите данни (при определени условия).\n• **Възражение:** Да възразите срещу обработването на данните Ви за маркетингови цели.\n• **Преносимост:** Да получите данните си в структуриран, машинночетим формат.\n\nЗа да упражните тези права, свържете се с нас на **privacy@gigconstruct.bg**."
+                content:
+                    "Съгласно Общия регламент за защита на данните (GDPR), Вие имате следните права:\n\n• **Достъп:** Да поискате копие от личните данни, които съхраняваме за Вас.\n• **Корекция:** Да поискате актуализиране на неточна информация.\n• **Изтриване:** Да поискате изтриване на Вашите данни (при определени условия).\n• **Възражение:** Да възразите срещу обработването на данните Ви за маркетингови цели.\n• **Преносимост:** Да получите данните си в структуриран, машинночетим формат.\n\nЗа да упражните тези права, свържете се с нас на **privacy@gigconstruct.bg**.",
             },
             {
                 heading: "8. Връзки към други сайтове",
-                content: "Нашият уебсайт може да съдържа връзки към трети страни. Ние не носим отговорност за политиките за поверителност или съдържанието на тези сайтове. Препоръчваме да прегледате техните политики преди да предоставите лична информация."
+                content:
+                    "Нашият уебсайт може да съдържа връзки към трети страни. Ние не носим отговорност за политиките за поверителност или съдържанието на тези сайтове. Препоръчваме да прегледате техните политики преди да предоставите лична информация.",
             },
             {
                 heading: "9. Промени в Политиката за поверителност",
-                content: "Ние можем да актуализираме тази политика от време на време. Всички промени ще бъдат публикувани на тази страница с нова дата на актуализация. Моля, проверявайте редовно за актуализации."
+                content:
+                    "Ние можем да актуализираме тази политика от време на време. Всички промени ще бъдат публикувани на тази страница с нова дата на актуализация. Моля, проверявайте редовно за актуализации.",
             },
             {
                 heading: "10. Свържете се с нас",
-                content: "Ако имате въпроси или притеснения относно тази Политика за поверителност, моля, свържете се с нас:\n\n**ГИГ Конструкт ООД**\nИмейл: info@gigconstruct.bg\nТелефон: +359 88 123 4567\nАдрес: София, България"
-            }
-        ]
+                content:
+                    "Ако имате въпроси или притеснения относно тази Политика за поверителност, моля, свържете се с нас:\n\n**ГИГ Конструкт ООД**\nИмейл: info@gigconstruct.bg\nТелефон: +359 88 123 4567\nАдрес: София, България",
+            },
+        ],
     },
     en: {
         title: "PRIVACY POLICY",
@@ -296,44 +306,105 @@ export const privacyPolicyStaticData = {
         sections: [
             {
                 heading: "1. Introduction",
-                content: "Welcome to the website of **GIG Construct Ltd.**. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website or use our services.\n\nBy using our website, you agree to the terms outlined in this policy."
+                content:
+                    "Welcome to the website of **GIG Construct Ltd.**. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website or use our services.\n\nBy using our website, you agree to the terms outlined in this policy.",
             },
             {
                 heading: "2. What Information We Collect",
-                content: "We may collect the following types of information:\n\n• **Personal Information:** Name, email address, phone number, and address that you provide voluntarily through contact forms or inquiries.\n• **Technical Information:** IP address, browser type, operating system, pages you visit, and visit time.\n• **Cookies:** Small files stored on your device to improve your experience on the site."
+                content:
+                    "We may collect the following types of information:\n\n• **Personal Information:** Name, email address, phone number, and address that you provide voluntarily through contact forms or inquiries.\n• **Technical Information:** IP address, browser type, operating system, pages you visit, and visit time.\n• **Cookies:** Small files stored on your device to improve your experience on the site.",
             },
             {
                 heading: "3. How We Use Your Information",
-                content: "The information we collect is used to:\n\n• **Respond to Your Inquiries:** To provide you with information about our services and answer your questions.\n• **Improve the Website:** To analyze usage and improve functionality and content.\n• **Marketing Communications:** To send news, promotions, and updates (only if you have given consent).\n• **Legal Obligations:** To comply with applicable laws and regulations."
+                content:
+                    "The information we collect is used to:\n\n• **Respond to Your Inquiries:** To provide you with information about our services and answer your questions.\n• **Improve the Website:** To analyze usage and improve functionality and content.\n• **Marketing Communications:** To send news, promotions, and updates (only if you have given consent).\n• **Legal Obligations:** To comply with applicable laws and regulations.",
             },
             {
                 heading: "4. Sharing Information with Third Parties",
-                content: "We do not sell or rent your personal information. We may share information only in the following cases:\n\n• **Service Providers:** With partners who help us manage the website (e.g., hosting, analytics).\n• **Legal Requirements:** When required by law or to protect our rights.\n• **Business Transactions:** In case of merger, acquisition, or sale of assets."
+                content:
+                    "We do not sell or rent your personal information. We may share information only in the following cases:\n\n• **Service Providers:** With partners who help us manage the website (e.g., hosting, analytics).\n• **Legal Requirements:** When required by law or to protect our rights.\n• **Business Transactions:** In case of merger, acquisition, or sale of assets.",
             },
             {
                 heading: "5. Cookies",
-                content: "Our website uses cookies to:\n\n• Remember your preferences (e.g., language).\n• Analyze traffic through tools like Google Analytics.\n• Improve site functionality.\n\nYou can manage or disable cookies through your browser settings. Please note that disabling them may limit some site features."
+                content:
+                    "Our website uses cookies to:\n\n• Remember your preferences (e.g., language).\n• Analyze traffic through tools like Google Analytics.\n• Improve site functionality.\n\nYou can manage or disable cookies through your browser settings. Please note that disabling them may limit some site features.",
             },
             {
                 heading: "6. Data Security",
-                content: "We implement technical and organizational measures to protect your information from unauthorized access, alteration, or destruction. However, no system can be 100% secure, and we cannot guarantee absolute protection."
+                content:
+                    "We implement technical and organizational measures to protect your information from unauthorized access, alteration, or destruction. However, no system can be 100% secure, and we cannot guarantee absolute protection.",
             },
             {
                 heading: "7. Your Rights",
-                content: "Under the General Data Protection Regulation (GDPR), you have the following rights:\n\n• **Access:** To request a copy of the personal data we hold about you.\n• **Correction:** To request updating of inaccurate information.\n• **Deletion:** To request deletion of your data (under certain conditions).\n• **Objection:** To object to processing of your data for marketing purposes.\n• **Portability:** To receive your data in a structured, machine-readable format.\n\nTo exercise these rights, contact us at **privacy@gigconstruct.bg**."
+                content:
+                    "Under the General Data Protection Regulation (GDPR), you have the following rights:\n\n• **Access:** To request a copy of the personal data we hold about you.\n• **Correction:** To request updating of inaccurate information.\n• **Deletion:** To request deletion of your data (under certain conditions).\n• **Objection:** To object to processing of your data for marketing purposes.\n• **Portability:** To receive your data in a structured, machine-readable format.\n\nTo exercise these rights, contact us at **privacy@gigconstruct.bg**.",
             },
             {
                 heading: "8. Links to Other Sites",
-                content: "Our website may contain links to third parties. We are not responsible for the privacy policies or content of these sites. We recommend reviewing their policies before providing personal information."
+                content:
+                    "Our website may contain links to third parties. We are not responsible for the privacy policies or content of these sites. We recommend reviewing their policies before providing personal information.",
             },
             {
                 heading: "9. Changes to the Privacy Policy",
-                content: "We may update this policy from time to time. All changes will be posted on this page with a new update date. Please check regularly for updates."
+                content:
+                    "We may update this policy from time to time. All changes will be posted on this page with a new update date. Please check regularly for updates.",
             },
             {
                 heading: "10. Contact Us",
-                content: "If you have any questions or concerns about this Privacy Policy, please contact us:\n\n**GIG Construct Ltd.**\nEmail: info@gigconstruct.bg\nPhone: +359 88 123 4567\nAddress: Sofia, Bulgaria"
-            }
-        ]
-    }
+                content:
+                    "If you have any questions or concerns about this Privacy Policy, please contact us:\n\n**GIG Construct Ltd.**\nEmail: info@gigconstruct.bg\nPhone: +359 88 123 4567\nAddress: Sofia, Bulgaria",
+            },
+        ],
+    },
+};
+
+export const homePageContent = {
+    bg: {
+        heroTitle: "Строителни Решения",
+        heroSubtitle: "Превръщаме визиите в реалност",
+        heroDescription:
+            "Професионални строителни и ремонтни услуги с внимание към детайла и ангажираност към качеството",
+        ctaServices: "Нашите услуги",
+        ctaContact: "Свържете се с нас",
+        whyChooseUs: "Защо да изберете нас?",
+        experienceTitle: "Опит и Експертиза",
+        experienceDesc: "Екип от опитни специалисти с години практика",
+        qualityTitle: "Високо Качество",
+        qualityDesc: "Използваме най-добрите материали и технологии",
+        trustTitle: "Доверие и Надеждност",
+        trustDesc: "Прозрачност и коректност във всеки проект",
+        servicesTitle: "Нашите услуги",
+        servicesSubtitle: "Професионални строителни решения за всеки проект",
+        viewAllServices: "Виж всички услуги",
+        projectsTitle: "Реализирани проекти",
+        projectsSubtitle: "Вижте някои от нашите успешно завършени проекти",
+        viewAllProjects: "Виж всички проекти",
+        contactTitle: "Имате проект?",
+        contactSubtitle: "Свържете се с нас за безплатна консултация и оферта",
+        contactButton: "Свържи се сега",
+    },
+    en: {
+        heroTitle: "Construction Solutions",
+        heroSubtitle: "Turning Visions Into Reality",
+        heroDescription:
+            "Professional construction and renovation services with attention to detail and commitment to quality",
+        ctaServices: "Our Services",
+        ctaContact: "Contact Us",
+        whyChooseUs: "Why Choose Us?",
+        experienceTitle: "Experience & Expertise",
+        experienceDesc: "Team of experienced professionals with years of practice",
+        qualityTitle: "High Quality",
+        qualityDesc: "We use the best materials and technologies",
+        trustTitle: "Trust & Reliability",
+        trustDesc: "Transparency and fairness in every project",
+        servicesTitle: "Our Services",
+        servicesSubtitle: "Professional construction solutions for every project",
+        viewAllServices: "View all services",
+        projectsTitle: "Completed Projects",
+        projectsSubtitle: "See some of our successfully completed projects",
+        viewAllProjects: "View all projects",
+        contactTitle: "Have a Project?",
+        contactSubtitle: "Contact us for a free consultation and quote",
+        contactButton: "Contact Now",
+    },
 };

@@ -6,62 +6,13 @@ import { useEffect, useState } from "react";
 import be from "@/app/_utils/Api";
 import { API_PATH } from "@/app/_lib/api_paths";
 import ComponentLoader from "@/app/_components/mainComponents/componentLoader";
+import { homePageContent } from "./_lib/static_data";
 
 export default function Home() {
     const { language } = useLanguageContext();
     const [services, setServices] = useState([]);
     const [servicesLoading, setServicesLoading] = useState(true);
-
-    const content = {
-        bg: {
-            heroTitle: "Строителни Решения",
-            heroSubtitle: "Превръщаме визиите в реалност",
-            heroDescription: "Професионални строителни и ремонтни услуги с внимание към детайла и ангажираност към качеството",
-            ctaServices: "Нашите услуги",
-            ctaContact: "Свържете се с нас",
-            whyChooseUs: "Защо да изберете нас?",
-            experienceTitle: "Опит и Експертиза",
-            experienceDesc: "Екип от опитни специалисти с години практика",
-            qualityTitle: "Високо Качество",
-            qualityDesc: "Използваме най-добрите материали и технологии",
-            trustTitle: "Доверие и Надеждност",
-            trustDesc: "Прозрачност и коректност във всеки проект",
-            servicesTitle: "Нашите услуги",
-            servicesSubtitle: "Професионални строителни решения за всеки проект",
-            viewAllServices: "Виж всички услуги",
-            projectsTitle: "Реализирани проекти",
-            projectsSubtitle: "Вижте някои от нашите успешно завършени проекти",
-            viewAllProjects: "Виж всички проекти",
-            contactTitle: "Имате проект?",
-            contactSubtitle: "Свържете се с нас за безплатна консултация и оферта",
-            contactButton: "Свържи се сега",
-        },
-        en: {
-            heroTitle: "Construction Solutions",
-            heroSubtitle: "Turning Visions Into Reality",
-            heroDescription: "Professional construction and renovation services with attention to detail and commitment to quality",
-            ctaServices: "Our Services",
-            ctaContact: "Contact Us",
-            whyChooseUs: "Why Choose Us?",
-            experienceTitle: "Experience & Expertise",
-            experienceDesc: "Team of experienced professionals with years of practice",
-            qualityTitle: "High Quality",
-            qualityDesc: "We use the best materials and technologies",
-            trustTitle: "Trust & Reliability",
-            trustDesc: "Transparency and fairness in every project",
-            servicesTitle: "Our Services",
-            servicesSubtitle: "Professional construction solutions for every project",
-            viewAllServices: "View all services",
-            projectsTitle: "Completed Projects",
-            projectsSubtitle: "See some of our successfully completed projects",
-            viewAllProjects: "View all projects",
-            contactTitle: "Have a Project?",
-            contactSubtitle: "Contact us for a free consultation and quote",
-            contactButton: "Contact Now",
-        },
-    };
-
-    const t = content[language] || content.bg;
+    const t = homePageContent[language] || homePageContent.bg;
 
     // Fetch services from backend
     useEffect(() => {
