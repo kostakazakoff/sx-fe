@@ -1,4 +1,4 @@
-# GiG Construct - Construction Services Website
+# Studio X - Construction Services Website
 
 A modern Next.js application built with JavaScript and Tailwind CSS for a construction company.
 

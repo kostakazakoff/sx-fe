@@ -90,7 +90,7 @@ export default function Navbar() {
                             <Image
                                 width={34}
                                 height={34}
-                                alt="GIG Construct Logo"
+                                alt="Studio X Logo"
                                 src="/GIG_logo_white_48px.png"
                                 className="h-auto w-auto rounded-full"
                             />

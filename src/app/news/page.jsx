@@ -2,7 +2,7 @@ import NewsClientComponent from "./newsClientComponent";
 
 export const metadata = {
     title: 'News',
-    description: 'Latest news and updates from GIG Construct.',
+    description: 'Latest news and updates from Studio X.',
     tags: ['news', 'updates', 'construction', 'renovation', 'новини', 'актуално', 'строителство', 'ремонт'],
 }
 

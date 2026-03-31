@@ -14,8 +14,8 @@ const comfortaa = Comfortaa({
 
 export const metadata = {
     title: {
-        default: "GIG Construct",
-        template: "%s | GIG Construct",
+        default: "Studio X",
+        template: "%s | Studio X",
     },
     icons: {
         icon: "/gig_logo_white_48px.svg",

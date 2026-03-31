@@ -28,7 +28,7 @@ export const aboutStaticData = {
     bg: {
         title: "За нас",
         aboutText:
-            "Добре дошли в GiG Construct!\n\n" +
+            "Добре дошли в Studio X!\n\n" +
             "Ние сме строителна компания, специализирана в предоставянето на висококачествени ремонтни услуги, за жилищни или търговски сгради.\n\n" +
             "Екип от опитни специалисти и ангажимент към превъзходство, ние се гордеем с това, че превръщаме визиите на нашите клиенти в реалност.\n\n" +
             "Нашата мисия е да доставяме изключителни строителни решения, независимо дали става въпрос за ново строителство, ремонт или специализирани услуги, ние подхождаме към всеки проект с внимание към детайла, иновации и ангажираност към качеството.",
@@ -37,7 +37,7 @@ export const aboutStaticData = {
     en: {
         title: "About Us",
         aboutText:
-            "Welcome to GiG Construct!\n\n" +
+            "Welcome to Studio X!\n\n" +
             "We are a construction company specializing in providing high-quality renovation services for residential or commercial buildings.\n\n" +
             "With a team of experienced professionals and a commitment to excellence, we take pride in turning our clients' visions into reality.\n\n" +
             "Our mission is to deliver exceptional construction solutions, whether it's new construction, renovation, or specialized services, we approach each project with attention to detail, innovation, and a dedication to quality.",
@@ -216,7 +216,7 @@ export const contactStaticData = {
         privacyPolicyLink: "privacy policy",
         sendButton: "Send Inquiry",
 
-        companyName: "GIG CONSTRUCT LTD",
+        companyName: "Studio X LTD",
         companyAddress: "address: 123 Example St, Sofia, Bulgaria",
         companyPhone: "phone: +359 88 123 4567",
         companyEmail: "email: info@gigconstruct.bg",
@@ -301,13 +301,13 @@ export const privacyPolicyStaticData = {
     },
     en: {
         title: "PRIVACY POLICY",
-        companyName: "GIG Construct Ltd.",
+        companyName: "Studio X Ltd.",
         lastUpdated: "Last updated: November 8, 2025",
         sections: [
             {
                 heading: "1. Introduction",
                 content:
-                    "Welcome to the website of **GIG Construct Ltd.**. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website or use our services.\n\nBy using our website, you agree to the terms outlined in this policy.",
+                    "Welcome to the website of **Studio X Ltd.**. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website or use our services.\n\nBy using our website, you agree to the terms outlined in this policy.",
             },
             {
                 heading: "2. What Information We Collect",
@@ -352,7 +352,7 @@ export const privacyPolicyStaticData = {
             {
                 heading: "10. Contact Us",
                 content:
-                    "If you have any questions or concerns about this Privacy Policy, please contact us:\n\n**GIG Construct Ltd.**\nEmail: info@gigconstruct.bg\nPhone: +359 88 123 4567\nAddress: Sofia, Bulgaria",
+                    "If you have any questions or concerns about this Privacy Policy, please contact us:\n\n**Studio X Ltd.**\nEmail: info@gigconstruct.bg\nPhone: +359 88 123 4567\nAddress: Sofia, Bulgaria",
             },
         ],
     },
@@ -360,15 +360,15 @@ export const privacyPolicyStaticData = {
 
 export const homePageContent = {
     bg: {
-        heroTitle: "Строителни Решения",
-        heroSubtitle: "Превръщаме визиите в реалност",
+        heroTitle: "Studio X",
+        heroSubtitle: "От идея до впечатление",
         heroDescription:
-            "Професионални строителни и ремонтни услуги с внимание към детайла и ангажираност към качеството",
+            "Даваме форма на вашите идеи. Комбинираме креативност и технологии, за да създадем реклами, които се запомнят.",
         ctaServices: "Нашите услуги",
         ctaContact: "Свържете се с нас",
         whyChooseUs: "Защо да изберете нас?",
         experienceTitle: "Опит и Експертиза",
-        experienceDesc: "Екип от опитни специалисти с години практика",
+        experienceDesc: "Опитни специалисти с години практика",
         qualityTitle: "Високо Качество",
         qualityDesc: "Използваме най-добрите материали и технологии",
         trustTitle: "Доверие и Надеждност",
@@ -379,20 +379,20 @@ export const homePageContent = {
         projectsTitle: "Реализирани проекти",
         projectsSubtitle: "Вижте някои от нашите успешно завършени проекти",
         viewAllProjects: "Виж всички проекти",
-        contactTitle: "Имате проект?",
-        contactSubtitle: "Свържете се с нас за безплатна консултация и оферта",
+        contactTitle: "Имате идея?",
+        contactSubtitle: "Свържете се с нас за консултация и оферта",
         contactButton: "Свържи се сега",
     },
     en: {
-        heroTitle: "Construction Solutions",
-        heroSubtitle: "Turning Visions Into Reality",
+        heroTitle: "Studio X",
+        heroSubtitle: "From Idea to Impression",
         heroDescription:
-            "Professional construction and renovation services with attention to detail and commitment to quality",
+            "We shape your ideas. Combining creativity and technology, we create advertisements that leave a lasting impression.",
         ctaServices: "Our Services",
         ctaContact: "Contact Us",
         whyChooseUs: "Why Choose Us?",
         experienceTitle: "Experience & Expertise",
-        experienceDesc: "Team of experienced professionals with years of practice",
+        experienceDesc: "Experienced professionals with years of practice",
         qualityTitle: "High Quality",
         qualityDesc: "We use the best materials and technologies",
         trustTitle: "Trust & Reliability",
@@ -403,8 +403,8 @@ export const homePageContent = {
         projectsTitle: "Completed Projects",
         projectsSubtitle: "See some of our successfully completed projects",
         viewAllProjects: "View all projects",
-        contactTitle: "Have a Project?",
-        contactSubtitle: "Contact us for a free consultation and quote",
+        contactTitle: "Have an Idea?",
+        contactSubtitle: "Contact us for a consultation and quote",
         contactButton: "Contact Now",
     },
 };

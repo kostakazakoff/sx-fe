@@ -2,7 +2,7 @@ import ClientContact from './clientContact';
 
 export const metadata = {
     title: 'Contact',
-    description: 'Get in touch with GIG Construct for inquiries and quotes.',
+    description: 'Get in touch with Studio X for inquiries and quotes.',
     tags: ['contact', 'inquiries', 'construction', 'renovation', 'контакт', 'запитвания', 'строителство', 'ремонт'],
 }
 
